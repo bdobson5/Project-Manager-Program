@@ -1,0 +1,110 @@
+@charset "utf-8";
+/* CSS Document */
+
+.header h1 {align-content: center;
+		text-align: center;
+		color: black;
+}
+
+.headernav {
+	align-content: center;
+	font-family: arial;
+	background-color: black;
+}
+
+.headernav span {
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	display:block;
+	text-align: right;
+}
+
+.headernav a {
+	text-decoration: none;
+	color: white;
+	text-decoration-color: black;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.headernav a:hover {
+	background-color: grey;
+	}
+
+.headernav a:active {
+	background-color:#ffc629;
+}
+
+.headernav a:visited {
+	color: gray;
+}
+
+body {
+	background-color: #ffc629;
+}
+
+main {
+	
+}
+
+table {
+	text-align: center;
+	border: solid;
+}
+
+ul, #consulttree {
+	list-style-type: none;
+}
+
+#consulttree {
+	margin: 0;
+	padding: 0;
+}
+.arrow {
+	cursor:pointer;
+	user-select: none;
+}
+
+.arrow::before {
+	content: "\25B6";
+	color:black;
+	display:inline-block;
+
+}
+
+.arrow-down::before {
+	transform: rotate(90deg);
+}
+
+.nested {
+	display:none;
+}
+
+.active {
+	display: block;
+}
+
+#team {
+	
+}
+
+#resources {
+	float:center;
+	
+}
+
+#consult {
+	float:right, center;
+	
+}
+
+#consultinfo {
+	align-content: center;
+}
+
+
+
