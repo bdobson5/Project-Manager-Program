@@ -1,0 +1,38 @@
+@charset "utf-8";
+/* CSS Document */
+
+.main {
+	background-color: white;
+}
+
+.blank {
+	width: 5%;
+}
+
+div {
+	text-align: center;
+}
+
+.datetime {
+	text-align: center;
+}
+
+.inputfield {
+	height: 30px;
+	width: 260px;
+}
+
+.tod {
+	text-align: center;
+}
+
+.column {
+	float: left;
+	width: 10%;
+}
+
+.row:after {
+	content: "";
+	display: table;
+	clear: both;
+}
