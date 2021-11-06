@@ -5,54 +5,6 @@ main {
 	padding-left: 50px;
 }
 
-table {
-	text-align: center;
-	border: solid;
-	background-color: white;
-	display:inline-flex;
-	margin-right: 20px;
-}
-
-ul, #consulttree {
-	list-style-type: none;
-}
-
-#consulttree {
-	margin: 0;
-	padding: 0;
-}
-.arrow {
-	cursor:pointer;
-	user-select: none;
-}
-
-.arrow::before {
-	content: "\25B6";
-	color:black;
-	display:inline-block;
-
-}
-
-.arrow-down::before {
-	transform: rotate(90deg);
-}
-
-.nested {
-	display:none;
-}
-
-.active {
-	display: block;
-}
-
-table {
-  text-align: center;
-  margin-left: auto;
-  margin-right: auto;
-  }
-
-
-
 .column {
   float: left;
   width: 20%;
@@ -70,35 +22,87 @@ table {
   }
 }
 .team {
-	margin-left: 30px;
+    background-color: white;
+    padding: 10px;
+	width: 200px;
+	height:175px;
+	margin-left: 250px;
+	margin-top: 20px;
 	align-content: center;
+    text-align: center;
+    border-style: solid;
 }
 
 .resource {
-	margin-left: 10px;
-	width:197.2;
-	height:164.4;
+    background-color: white;
+    padding: 10px;
+	margin-left:290px;
+	width:200px;
+	height: 175px;
+    text-align: center;
+    align-content: center;
+    border-style: solid;
+    margin-top: 20px;
 }
 
 .consult {
-	
+  background-color: white;
+  width: 200px;
+  height: 195px;
+  border-style: solid;
+  margin-left: 330px;
+  margin-top: 20px;
+  text-align: center;
 }
 
-#consultinfo {
-	margin-left:10%;
-	margin-right: auto;
-	text-align: justify;
+.consultinfo {
+    background-color: white;
+    width: 840px;
+    height: 175px;
+    padding: 5px 10px 15px 20px;
+    border-style: solid;
+	margin-left: 250px;
+    margin-top: 50px;
+	text-align: left;
 }
 
 hr {
 	color: black;
 }
 
-section {
-	margin-top: 25px;
-	alignment-baseline: center;
-	padding-bottom: 20px;
+
+ul, #consulttree {
+	list-style-type: none;
 }
+
+#consulttree {
+	margin: 0;
+	padding: 0;
+}
+.arrow {
+	cursor:pointer;
+	user-select:auto;
+}
+
+.arrow::before {
+	content: "\25B6";
+	color:black;
+	display:inline-block;
+
+}
+
+.arrow-down::before {
+	transform: rotate(90deg);
+}
+
+.nested {
+	display: none;
+}
+
+.active {
+	display: block;
+}
+
 
 
 
